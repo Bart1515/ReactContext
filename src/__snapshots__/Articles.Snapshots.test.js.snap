@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test, test... 1`] = `
+<div
+  style={
+    Object {
+      "overflow": "hidden",
+    }
+  }
+>
+  <div>
+    <input
+      onClick={[Function]}
+      type="checkbox"
+    />
+    <a
+      href="https://www.theguardian.com/guardian-observer-style-guide-a"
+    >
+      Guardian and Observer style guide: A
+    </a>
+  </div>
+  <div>
+    <input
+      onClick={[Function]}
+      type="checkbox"
+    />
+    <a
+      href="https://www.theguardian.com/about/2018/jan/09/a-letter-from-the-editor-in-chief-on-the-new-guardian-and-observer"
+    >
+      A letter from the editor-in-chief on the new Guardian and Observer
+    </a>
+  </div>
+  <div>
+    <input
+      onClick={[Function]}
+      type="checkbox"
+    />
+    <a
+      href="https://www.theguardian.com/help/ng-interactive/2017/mar/17/contact-the-guardian-securely"
+    >
+      Contact the Guardian securely
+    </a>
+  </div>
+  <div>
+    <input
+      onClick={[Function]}
+      type="checkbox"
+    />
+    <a
+      href="https://www.theguardian.com/community-standards"
+    >
+      The Guardian website community standards and participation guidelines
+    </a>
+  </div>
+  <button
+    onClick={[Function]}
+  >
+    Ta bort valda
+  </button>
+</div>
+`;
