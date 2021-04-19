@@ -1,6 +1,7 @@
 import "./App.css";
 import Articles from "./Articles";
-import { Section, SectionsList } from "./Sections";
+import Section from "./Section";
+import SectionsList from "./SectionsList";
 import MyContext from "./Context";
 import React, { useState, useReducer, useMemo } from "react";
 import styled from "styled-components";
@@ -48,7 +49,6 @@ function App() {
       removeList.forEach((remId) => {
         articlesCopy = _.filter(articlesCopy, (a) => a.id !== remId);
       });
-
       setArticles(articlesCopy);
     },
     [articles]
